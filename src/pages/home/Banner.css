@@ -1,7 +1,31 @@
 .btn_style{
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
     color: #fff;
     font-weight: bold;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    transition: 0.5s ease-out;
+    
+}
+
+.btn_style:hover{
+    border-color: rgb(255, 208, 0) !important;
+}
+.Banner_heading{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 30vh;
+    align-items: center;
+}
+
+.Banner_heading h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    transition: 1s ease-out;
+    
 }

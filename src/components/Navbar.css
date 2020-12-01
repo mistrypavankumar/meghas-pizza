@@ -93,4 +93,9 @@ nav .right_menu_content{
     top: 16px;
     color: wheat;
     background-color: red;
+    transition: .5s ease-out ;
+}
+
+.cbtnStyle:hover{
+    border-color: red !important;
 }

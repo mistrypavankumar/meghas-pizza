@@ -1,0 +1,6 @@
+.hover_effect:hover{
+    border: 2px solid red !important;
+    background-color: transparent;
+    transition: 0.5s alternate;
+    transform: scaleZ(50px);
+}

@@ -15,7 +15,7 @@ const Banner = () => {
                     <Button 
                     buttonName = "Order Online Now"
                     borderStyle = "none"
-                    borderRadius = "20px"
+                    borderRadius = "50px"
                     width = "180px"
                     height = "7vh"
                     custom_btn_style = 'btn_style'
