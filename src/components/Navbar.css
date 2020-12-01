@@ -7,14 +7,13 @@
 nav{
     width: 100hw;
     height: 12vh;
-    background-color: gray;
     position: relative;
 }
 
 nav .navbar{
     width: 50vw;
-    background-color: rebeccapurple;
 }
+
 nav ul{
     list-style: none;
     display: flex;
@@ -40,8 +39,7 @@ nav ul li:hover{
 
 nav .logo{
     width: 15vw;
-    height: 25vh;
-    /* border: 2px solid black; */
+    height: 20vh;
     text-align: center;
     padding: 50px 20px;
     font-family: monospace; /* Need to change */

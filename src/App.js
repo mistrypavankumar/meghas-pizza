@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Banner from './pages/home/Banner'
+
 
 function App() {
     return (
         <>
-            <div>
-               <Navbar />
-            </div>
+            <Banner />
         </>
     )
 }
