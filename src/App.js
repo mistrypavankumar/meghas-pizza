@@ -1,11 +1,11 @@
 import React from 'react'
-import Banner from './pages/home/Banner'
+import Home from './Home'
 
 
 function App() {
     return (
-        <>
-            <Banner />
+        <>  
+            <Home />
         </>
     )
 }
