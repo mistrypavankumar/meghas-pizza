@@ -1,0 +1,17 @@
+.deshesContainer{
+    width: 100%;
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.63), rgba(14, 13, 13, 0.096)),
+    url('./assets/wooden_bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.deshesContainer .card_contanier{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    
+}

@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar'
 import '../../App.css'
 import '../home/Banner.css'
 import Button from '../../components/Button'
+import Heading from '../../components/Heading'
 
 const Banner = () => {
     return(
@@ -11,7 +12,14 @@ const Banner = () => {
                <Navbar />
 
                <div className = "Banner_heading">
-                    <h1>The Best Pizza in Town</h1>
+                    <Heading
+                        subTitle = "Authentic Italian Pizza"
+                        subTitleColor = "yellow"
+                        subTitleSize = "2rem"
+                        mainHeading = "The Best Pizza in Town"
+                        
+                     />
+
                     <Button 
                     buttonName = "Order Online Now"
                     borderStyle = "none"
