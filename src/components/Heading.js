@@ -8,10 +8,15 @@ export default function Heading(props) {
 
     }
 
+    const hstyle = {
+        fontSize: `${props.mainHeadingSize}`,
+        color: `${props.mainHeadingColor}`
+    }
+
     return (
         <>
             <p style = {cstyle} id = "subTitle">{props.subTitle}</p>
-            <h1>{props.mainHeading}</h1>
+            <h1 style = {hstyle}>{props.mainHeading}</h1>
         </>
     )
 }
