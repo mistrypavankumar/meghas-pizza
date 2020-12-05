@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --textColor: rgb(255, 187, 0);
+    --primary: #fff;
+    --secondary: red;
+}
+
+
 nav{
     width: 100hw;
     height: 12vh;
@@ -32,7 +39,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    color: yellow;
+    color: var(--textColor);
     cursor: pointer;
   
 }
@@ -47,7 +54,7 @@ nav .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--primary);
 
     position: absolute;
     left: 45%;
@@ -92,10 +99,10 @@ nav .right_menu_content{
     right: 50px;
     top: 16px;
     color: wheat;
-    background-color: red;
+    background-color: var(--secondary);
     transition: .5s ease-out ;
 }
 
 .cbtnStyle:hover{
-    border-color: red !important;
+    border-color: var(--secondary) !important;
 }
