@@ -10,7 +10,8 @@ export default function Heading(props) {
 
     const hstyle = {
         fontSize: `${props.mainHeadingSize}`,
-        color: `${props.mainHeadingColor}`
+        color: `${props.mainHeadingColor}`,
+        fontFamily: 'sans-serif'
     }
 
     return (

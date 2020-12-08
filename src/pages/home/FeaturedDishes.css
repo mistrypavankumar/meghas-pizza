@@ -1,0 +1,72 @@
+:root{
+    --bg_color: rgba(57, 148, 4, 0.897);
+    --activeColor: white;
+    --deactiveColor: rgb(143, 142, 142);
+}
+
+
+
+
+#featuredDishes{
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/featuredDishes_bg.png');
+
+}
+
+.featured_heading{
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 90px;
+}
+
+.nav_container{
+    width: 40%;
+    height: 7vh;
+    margin: 30px auto;
+    border-radius: 50px;
+    background-color: rgba(212, 208, 208, 0.555);
+}
+
+.nav_container .nav_menu ul{
+    display: flex;
+    line-height: 7vh;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav_container .nav_menu ul a{
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    color: #000;
+}
+
+
+.nav_container .nav_menu ul li{
+    flex: 2;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 50px;
+    transition: .3s linear;
+}
+.nav_menu ul li.active{
+    color: var(--activeColor);
+    background-color: var(--bg_color);
+}
+
+.nav_menu ul li.deactive{
+    color: var(--deactiveColor);
+    background-color: transparent;
+}
+
+.nav_container .nav_menu ul li:hover{
+    background-color: var(--bg_color);
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    
+}
