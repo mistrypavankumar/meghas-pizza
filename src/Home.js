@@ -5,6 +5,7 @@ import WelcomePage from './pages/home/WelcomePage'
 import CardsData from './pages/home/data/CardsData'
 import './Home.css'
 import Heading from './components/Heading'
+import FeaturedDishes from './pages/home/FeaturedDishes'
 
 
 export default function Home() {
@@ -43,6 +44,8 @@ export default function Home() {
                     {CardsData.map(card)}
                 </div>
             </div>
+
+            <FeaturedDishes />
         </>
     )
 }
