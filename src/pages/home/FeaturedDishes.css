@@ -10,63 +10,71 @@
 #featuredDishes{
     width: 100%;
     height: 100vh;
-    background: url('../../assets/featuredDishes_bg.png');
-
+    background-color: #fff;
 }
 
 .featured_heading{
     text-align: center;
     width: 80%;
     margin: 0px auto;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
-.nav_container{
-    width: 40%;
-    height: 7vh;
-    margin: 30px auto;
+.active{
+    background-color: var(--bg_color);
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.nav{
+    max-width: 30%;
+    height: 6vh;
+    margin: 30px auto  40px auto;
+    background-color: rgba(211, 211, 211, 0.5);
     border-radius: 50px;
-    background-color: rgba(212, 208, 208, 0.555);
-}
-
-.nav_container .nav_menu ul{
     display: flex;
-    line-height: 7vh;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
-.nav_container .nav_menu ul a{
+.nav .nav-link{
     text-decoration: none;
     flex: 1;
-    text-align: center;
-    color: #000;
-}
-
-
-.nav_container .nav_menu ul li{
-    flex: 2;
-    text-align: center;
+    line-height: 6vh;
+    border-radius: 50px;
+    outline: none;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 14px;
-    border-radius: 50px;
-    transition: .3s linear;
-}
-.nav_menu ul li.active{
-    color: var(--activeColor);
-    background-color: var(--bg_color);
+    letter-spacing: 1px;
+    text-align: center;
 }
 
-.nav_menu ul li.deactive{
-    color: var(--deactiveColor);
-    background-color: transparent;
+a{
+    color: rgb(172, 169, 169);
 }
 
-.nav_container .nav_menu ul li:hover{
+a:hover{
     background-color: var(--bg_color);
-    border-radius: 50px;
     color: #fff;
-    cursor: pointer;
-    
+    transition: 0.5s ease-in-out;
 }
+
+.tab-content{
+    width: 70%;
+    height: 60vh;
+    border: 1px dashed red;
+    margin: 0px auto;
+}
+
+.main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* .tab-content a:target{
+    display: block;
+} */
+
+
