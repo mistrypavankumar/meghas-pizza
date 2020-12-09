@@ -1,20 +1,15 @@
-import React, {useState} from 'react'
+import React,{useState} from 'react'
 import Heading from '../../components/Heading'; 
+import FeaturedCards from './components/FeaturedCards'
+import FeaturedCardsDetails from './data/FeaturedDishesDetail'
+import { Tabs, Tab, TabPane } from 'react-bootstrap';
+
 import './FeaturedDishes.css'
 
 
 export default function FeaturedDishes() {
-
-    const [active, setActive] = useState(false);
-
-
-    const onclickHandler = (e) => {
-        e.preventDefault();
-        setActive(true);
-
-        const className = "active"; 
-        // console.log("you clicked")
-    }
+    const [key, setkey] = useState('home')
+       
     return (
         <>
             <section id = "featuredDishes">
@@ -25,16 +20,79 @@ export default function FeaturedDishes() {
                     />
                 </div>
 
-                <div className = "nav_container">
-                    <div className = "nav_menu">
-                        <ul>
-                            <a href = "pasta"  onClick ={onclickHandler} ><li className  = {active ? "active" : "deactive"}>PASTA DISHES</li></a>
-                            <a href = "pizza"  onClick ={onclickHandler} ><li className  = {active ? "deactive" : "active"}>PIZZA</li></a>
-                            <a href = "salad"  onClick ={onclickHandler} ><li className  = {active ? "deactive" : "active"}>SALADS</li></a>
-                            <a href = "drinks"  onClick ={onclickHandler} ><li className  = {active ? "deactive" : "active"}>DRINKS</li></a>
-                        </ul>
-                    </div>
-                </div>
+               
+                        <Tabs
+                            id = "controlled-tab-ex"
+                            activeKey = {key}
+                            onSelect = {(k) => setkey(k)}
+                            
+                            
+                        >
+                            <Tab eventKey = "home" title = "Pasta">
+                                <TabPane class = "tab_container" id = "home">
+                                    <div className = "main">
+                                        <div>
+                                            <FeaturedCards
+                                            img = {FeaturedCardsDetails[0].dishImg} 
+                                            title = {FeaturedCardsDetails[0].dishName}
+                                            desc = {FeaturedCardsDetails[0].desc}
+                                        />
+                                        <FeaturedCards
+                                            img = {FeaturedCardsDetails[0].dishImg} 
+                                            title = {FeaturedCardsDetails[0].dishName}
+                                            desc = {FeaturedCardsDetails[0].desc}
+                                        />
+                                        <FeaturedCards
+                                            img = {FeaturedCardsDetails[0].dishImg} 
+                                            title = {FeaturedCardsDetails[0].dishName}
+                                            desc = {FeaturedCardsDetails[0].desc}
+                                        />
+                                        </div>
+                                        <div>
+                                            <FeaturedCards
+                                            img = {FeaturedCardsDetails[0].dishImg} 
+                                            title = {FeaturedCardsDetails[0].dishName}
+                                            desc = {FeaturedCardsDetails[0].desc}
+                                        />
+                                        <FeaturedCards
+                                            img = {FeaturedCardsDetails[0].dishImg} 
+                                            title = {FeaturedCardsDetails[0].dishName}
+                                            desc = {FeaturedCardsDetails[0].desc}
+                                        />
+                                        <FeaturedCards
+                                            img = {FeaturedCardsDetails[0].dishImg} 
+                                            title = {FeaturedCardsDetails[0].dishName}
+                                            desc = {FeaturedCardsDetails[0].desc}
+                                        />
+                                        </div>
+                                    </div>
+                    
+                                </TabPane>
+                            </Tab>
+
+
+                            <Tab eventKey = "home1" title = "Pizza">
+                             <TabPane class = "tab_container">
+                                    <h1>hello</h1>
+                                </TabPane>
+                            </Tab>
+
+
+                            <Tab eventKey = "home2" title = "Salad">
+                                <TabPane class = "tab_container">
+                                    <h1>hello</h1>
+                                </TabPane>
+                            </Tab>
+
+
+                            <Tab eventKey = "home3" title = "Drinks">
+                                <TabPane class = "tab_container">
+                                    <h1>hello</h1>
+                                </TabPane>
+                            </Tab>
+
+                        </Tabs>             
+               
             </section>
         </>
     )

@@ -1,0 +1,39 @@
+.card_main_cantainer{
+    width: 40%;
+    height: 20vh;
+}
+
+.card_main_cantainer .card_container{
+    width:auto;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+}
+
+.card_main_cantainer .card_container img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card_container h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+    border-bottom: 1px dashed rgb(206, 202, 202);
+    padding-bottom: 5px;
+}
+
+.card_container p{
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: initial;
+    font-size: 15px;
+    color: rgb(150, 148, 148);
+}
