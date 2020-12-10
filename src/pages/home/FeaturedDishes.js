@@ -139,22 +139,22 @@ export default function SimpleTabs() {
                             <div class="row">
                                 <div class="col-6 display">
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[0].dishName}
-                                        price={FeaturedCardsDetails[0].price}
-                                        img={FeaturedCardsDetails[0].dishImg}
-                                        desc={FeaturedCardsDetails[0].desc}
+                                        title={FeaturedCardsDetails[6].dishName}
+                                        price={FeaturedCardsDetails[6].price}
+                                        img={FeaturedCardsDetails[6].dishImg}
+                                        desc={FeaturedCardsDetails[6].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[1].dishName}
-                                        price={FeaturedCardsDetails[1].price}
-                                        img={FeaturedCardsDetails[1].dishImg}
-                                        desc={FeaturedCardsDetails[1].desc}
+                                        title={FeaturedCardsDetails[7].dishName}
+                                        price={FeaturedCardsDetails[7].price}
+                                        img={FeaturedCardsDetails[7].dishImg}
+                                        desc={FeaturedCardsDetails[7].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[2].dishName}
-                                        price={FeaturedCardsDetails[2].price}
-                                        img={FeaturedCardsDetails[2].dishImg}
-                                        desc={FeaturedCardsDetails[2].desc}
+                                        title={FeaturedCardsDetails[8].dishName}
+                                        price={FeaturedCardsDetails[8].price}
+                                        img={FeaturedCardsDetails[8].dishImg}
+                                        desc={FeaturedCardsDetails[8].desc}
                                     />
                                 </div>
                             </div>
@@ -163,22 +163,22 @@ export default function SimpleTabs() {
                             <div class="row">
                                 <div class="col-6 display">
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[3].dishName}
-                                        price={FeaturedCardsDetails[3].price}
-                                        img={FeaturedCardsDetails[3].dishImg}
-                                        desc={FeaturedCardsDetails[3].desc}
+                                        title={FeaturedCardsDetails[9].dishName}
+                                        price={FeaturedCardsDetails[9].price}
+                                        img={FeaturedCardsDetails[9].dishImg}
+                                        desc={FeaturedCardsDetails[9].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[4].dishName}
-                                        price={FeaturedCardsDetails[4].price}
-                                        img={FeaturedCardsDetails[4].dishImg}
-                                        desc={FeaturedCardsDetails[4].desc}
+                                        title={FeaturedCardsDetails[10].dishName}
+                                        price={FeaturedCardsDetails[10].price}
+                                        img={FeaturedCardsDetails[10].dishImg}
+                                        desc={FeaturedCardsDetails[10].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[5].dishName}
-                                        price={FeaturedCardsDetails[5].price}
-                                        img={FeaturedCardsDetails[5].dishImg}
-                                        desc={FeaturedCardsDetails[5].desc}
+                                        title={FeaturedCardsDetails[11].dishName}
+                                        price={FeaturedCardsDetails[11].price}
+                                        img={FeaturedCardsDetails[11].dishImg}
+                                        desc={FeaturedCardsDetails[11].desc}
                                     />
                                 </div>
                             </div>
@@ -191,22 +191,22 @@ export default function SimpleTabs() {
                             <div class="row">
                                 <div class="col-6 display">
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[0].dishName}
-                                        price={FeaturedCardsDetails[0].price}
-                                        img={FeaturedCardsDetails[0].dishImg}
-                                        desc={FeaturedCardsDetails[0].desc}
+                                        title={FeaturedCardsDetails[12].dishName}
+                                        price={FeaturedCardsDetails[12].price}
+                                        img={FeaturedCardsDetails[12].dishImg}
+                                        desc={FeaturedCardsDetails[12].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[1].dishName}
-                                        price={FeaturedCardsDetails[1].price}
-                                        img={FeaturedCardsDetails[1].dishImg}
-                                        desc={FeaturedCardsDetails[1].desc}
+                                        title={FeaturedCardsDetails[13].dishName}
+                                        price={FeaturedCardsDetails[13].price}
+                                        img={FeaturedCardsDetails[13].dishImg}
+                                        desc={FeaturedCardsDetails[13].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[2].dishName}
-                                        price={FeaturedCardsDetails[2].price}
-                                        img={FeaturedCardsDetails[2].dishImg}
-                                        desc={FeaturedCardsDetails[2].desc}
+                                        title={FeaturedCardsDetails[14].dishName}
+                                        price={FeaturedCardsDetails[14].price}
+                                        img={FeaturedCardsDetails[14].dishImg}
+                                        desc={FeaturedCardsDetails[14].desc}
                                     />
                                 </div>
                             </div>
@@ -215,22 +215,22 @@ export default function SimpleTabs() {
                             <div class="row">
                                 <div class="col-6 display">
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[3].dishName}
-                                        price={FeaturedCardsDetails[3].price}
-                                        img={FeaturedCardsDetails[3].dishImg}
-                                        desc={FeaturedCardsDetails[3].desc}
+                                        title={FeaturedCardsDetails[15].dishName}
+                                        price={FeaturedCardsDetails[15].price}
+                                        img={FeaturedCardsDetails[15].dishImg}
+                                        desc={FeaturedCardsDetails[15].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[4].dishName}
-                                        price={FeaturedCardsDetails[4].price}
-                                        img={FeaturedCardsDetails[4].dishImg}
-                                        desc={FeaturedCardsDetails[4].desc}
+                                        title={FeaturedCardsDetails[16].dishName}
+                                        price={FeaturedCardsDetails[16].price}
+                                        img={FeaturedCardsDetails[16].dishImg}
+                                        desc={FeaturedCardsDetails[16].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[5].dishName}
-                                        price={FeaturedCardsDetails[5].price}
-                                        img={FeaturedCardsDetails[5].dishImg}
-                                        desc={FeaturedCardsDetails[5].desc}
+                                        title={FeaturedCardsDetails[17].dishName}
+                                        price={FeaturedCardsDetails[17].price}
+                                        img={FeaturedCardsDetails[17].dishImg}
+                                        desc={FeaturedCardsDetails[17].desc}
                                     />
                                 </div>
                             </div>
@@ -243,22 +243,22 @@ export default function SimpleTabs() {
                             <div class="row">
                                 <div class="col-6 display">
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[0].dishName}
-                                        price={FeaturedCardsDetails[0].price}
-                                        img={FeaturedCardsDetails[0].dishImg}
-                                        desc={FeaturedCardsDetails[0].desc}
+                                        title={FeaturedCardsDetails[18].dishName}
+                                        price={FeaturedCardsDetails[18].price}
+                                        img={FeaturedCardsDetails[18].dishImg}
+                                        desc={FeaturedCardsDetails[18].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[1].dishName}
-                                        price={FeaturedCardsDetails[1].price}
-                                        img={FeaturedCardsDetails[1].dishImg}
-                                        desc={FeaturedCardsDetails[1].desc}
+                                        title={FeaturedCardsDetails[19].dishName}
+                                        price={FeaturedCardsDetails[19].price}
+                                        img={FeaturedCardsDetails[19].dishImg}
+                                        desc={FeaturedCardsDetails[19].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[2].dishName}
-                                        price={FeaturedCardsDetails[2].price}
-                                        img={FeaturedCardsDetails[2].dishImg}
-                                        desc={FeaturedCardsDetails[2].desc}
+                                        title={FeaturedCardsDetails[20].dishName}
+                                        price={FeaturedCardsDetails[20].price}
+                                        img={FeaturedCardsDetails[20].dishImg}
+                                        desc={FeaturedCardsDetails[20].desc}
                                     />
                                 </div>
                             </div>
@@ -267,22 +267,22 @@ export default function SimpleTabs() {
                             <div class="row">
                                 <div class="col-6 display">
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[3].dishName}
-                                        price={FeaturedCardsDetails[3].price}
-                                        img={FeaturedCardsDetails[3].dishImg}
-                                        desc={FeaturedCardsDetails[3].desc}
+                                        title={FeaturedCardsDetails[21].dishName}
+                                        price={FeaturedCardsDetails[21].price}
+                                        img={FeaturedCardsDetails[21].dishImg}
+                                        desc={FeaturedCardsDetails[21].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[4].dishName}
-                                        price={FeaturedCardsDetails[4].price}
-                                        img={FeaturedCardsDetails[4].dishImg}
-                                        desc={FeaturedCardsDetails[4].desc}
+                                        title={FeaturedCardsDetails[22].dishName}
+                                        price={FeaturedCardsDetails[22].price}
+                                        img={FeaturedCardsDetails[22].dishImg}
+                                        desc={FeaturedCardsDetails[22].desc}
                                     />
                                     <FeaturedCards
-                                        title={FeaturedCardsDetails[5].dishName}
-                                        price={FeaturedCardsDetails[5].price}
-                                        img={FeaturedCardsDetails[5].dishImg}
-                                        desc={FeaturedCardsDetails[5].desc}
+                                        title={FeaturedCardsDetails[23].dishName}
+                                        price={FeaturedCardsDetails[23].price}
+                                        img={FeaturedCardsDetails[23].dishImg}
+                                        desc={FeaturedCardsDetails[23].desc}
                                     />
                                 </div>
                             </div>
