@@ -8,6 +8,8 @@ import Heading from './components/Heading'
 import FeaturedDishes from './pages/home/FeaturedDishes'
 
 
+import NavTab from "./NavTab" 
+
 export default function Home() {
 
     const card = (c,i) => {
@@ -46,6 +48,8 @@ export default function Home() {
             </div>
             
             <FeaturedDishes />
+
+            {/* <NavTab /> */}
         </>
     )
 }
