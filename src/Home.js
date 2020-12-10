@@ -44,7 +44,7 @@ export default function Home() {
                     {CardsData.map(card)}
                 </div>
             </div>
-
+            
             <FeaturedDishes />
         </>
     )
