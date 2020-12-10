@@ -25,7 +25,7 @@
 
 #featuredDishes{
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background-color: #fff;
 }
 
@@ -80,7 +80,53 @@ a:hover{
     height: 60vh;
     margin: 0px auto;
 }
+.nav_tab{
+    width: 80% !important;
+    padding: 0px !important;
+    margin: 40px auto;
 
+}
+.tab_theame{
+    background-color: rgb(202, 202, 202) !important;
+    width: 50% !important;
+    height: 40px;
+    margin: 0px auto;
+    border-radius: 50px;
+    box-shadow: none !important;
+    
+}
+
+.tab_theame button{
+    color: gray;
+    flex: 1;
+    padding: 0px !important;
+    min-width: 20px !important;
+    min-height: 40px !important ;
+    z-index: 1;
+    color: #fff;
+}
+
+.tab_theame button:hover{
+    background-color:var(--bg_color) ;
+    color: #fff;
+    border-bottom: none !important;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+}
+
+.PrivateTabIndicator-colorSecondary-4{
+    min-width:20px;
+    min-height: 40px;
+    background-color: var(--bg_color) !important;
+    border-radius: 50px;
+    top: 0;
+    
+    
+}
+
+.tab_theame .button.active{
+    background-color: var(--bg_color) !important;
+}
 
 .display{
     width: 100%;
@@ -112,7 +158,7 @@ a:hover{
     background-color: red;
     color: #fff;
     letter-spacing: 0.5px;
-    margin: 0 auto;
+    margin: 40px auto;
 
 }
 
