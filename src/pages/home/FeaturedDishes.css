@@ -5,11 +5,27 @@
 }
 
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
 
 #featuredDishes{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: #fff;
 }
 
@@ -62,19 +78,47 @@ a:hover{
 .tab-content{
     width: 70%;
     height: 60vh;
-    border: 1px dashed red;
     margin: 0px auto;
 }
 
-.main{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
+
+.display{
+    width: 100%;
+    float: left;
 }
 
 
-/* .tab-content a:target{
-    display: block;
-} */
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
 
+.leftSide_card{
+    width: 50%;
+    float: left;
+}
 
+.rightSide_card{
+    width: 50%;
+    float: left;
+}
+
+.explore_btn{
+    width: 10%;
+    margin: 50px auto;
+}
+.featured_btn{
+    background-color: red;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+
+}
+
+.featured_btn:hover{
+    border-color: red;
+    color: red;
+    transition: 0.5s ease-in-out;
+    font-weight: 600;
+}
