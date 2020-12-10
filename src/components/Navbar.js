@@ -3,6 +3,8 @@ import NavbarData from './NavbarData'
 import "./Navbar.css"
 import Button from './Button';
 
+import img from "./../assets/MeghasPizza.jpg"
+
 export default function Navbar() {
 
     const number_of_items = 0;
@@ -26,7 +28,7 @@ export default function Navbar() {
                     
                 </div>
                 <div className = "logo">
-                    <h1>Mega's Pizza</h1>
+                    
                 </div>
 
                 <div className = "right_menu">
@@ -49,3 +51,6 @@ export default function Navbar() {
         </>
     )
 }
+
+
+

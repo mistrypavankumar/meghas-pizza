@@ -9,6 +9,7 @@ import FeaturedDishes from './pages/home/FeaturedDishes'
 
 
 import NavTab from "./NavTab" 
+import AboutUs from './pages/home/AboutUs'
 
 export default function Home() {
 
@@ -39,7 +40,7 @@ export default function Home() {
                         subTitleSize = "1.5rem"
                         mainHeading = "Our Delicious Pizzas"
                         mainHeadingSize = "2.7rem"
-                        mainHeadingColor = "white"
+                        mainHeadingColor = "#fff"
                     />
                 </div>
                 <div className = "card_contanier">
@@ -49,7 +50,8 @@ export default function Home() {
             
             <FeaturedDishes />
 
-            {/* <NavTab /> */}
+            <AboutUs />
+
         </>
     )
 }
