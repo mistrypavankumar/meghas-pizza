@@ -8,10 +8,10 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 
-import Heading from "../../components/Heading"
-import FeaturedCards from './components/FeaturedCards'
-import Button from "../../components/Button"
-import FeaturedCardsDetails from './data/FeaturedDishesDetail'
+import Heading from "../../../components/Heading"
+import FeaturedCards from '../components/FeaturedCards'
+import Button from "../../../components/Button"
+import FeaturedCardsDetails from '../data/FeaturedDishesDetail'
 import './FeaturedDishes.css'
 
 function TabPanel(props) {

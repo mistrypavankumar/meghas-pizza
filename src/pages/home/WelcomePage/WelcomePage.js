@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from '../../components/Button'
+import Button from '../../../components/Button'
 import './WelcomePage.css'
 
-import img1 from '../../assets/img4.jpg'
-import img2 from '../../assets/g7.jpg'
+import img1 from '../../../assets/img4.jpg'
+import img2 from '../../../assets/g7.jpg'
 
 
 

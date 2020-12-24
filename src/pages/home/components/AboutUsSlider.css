@@ -1,0 +1,24 @@
+.s_container{
+    width: 50%;
+    height: 60vh;
+    margin: 0px auto;
+}
+.wdt{  
+    width: 100%  !important; 
+    padding: 50px;
+    border: none;
+    outline: none;
+    
+     
+}  
+.wdt > p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.wdt > h3{
+    color: rgb(255, 196, 0);
+    text-align: center;
+    padding-top: 20px;
+}

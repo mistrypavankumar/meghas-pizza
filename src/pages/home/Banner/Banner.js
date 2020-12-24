@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
-import '../../App.css'
-import '../home/Banner.css'
-import Button from '../../components/Button'
-import Heading from '../../components/Heading'
+import Navbar from '../../../components/Navbar'
+import '../../../App.css'
+import '../Banner/Banner.css'
+import Button from '../../../components/Button'
+import Heading from '../../../components/Heading'
 
 const Banner = () => {
     return(

@@ -1,15 +1,16 @@
 import React from 'react'
-import Banner from './pages/home/Banner'
-import Cards from './pages/home/Cards'
-import WelcomePage from './pages/home/WelcomePage'
+import Banner from './pages/home/Banner/Banner'
+import Cards from './pages/home/Cards/Cards'
+import WelcomePage from './pages/home/WelcomePage/WelcomePage'
 import CardsData from './pages/home/data/CardsData'
 import './Home.css'
 import Heading from './components/Heading'
-import FeaturedDishes from './pages/home/FeaturedDishes'
+import FeaturedDishes from './pages/home/FeaturesDishes/FeaturedDishes'
 
 
-import NavTab from "./NavTab" 
-import AboutUs from './pages/home/AboutUs'
+// import NavTab from "./NavTab" 
+import AboutUs from './pages/home/AboutUs/AboutUs'
+import UpcomingEvents from './pages/home/UpcomingEvents/UpcomingEvents'
 
 export default function Home() {
 
@@ -52,6 +53,7 @@ export default function Home() {
 
             <AboutUs />
 
+            <UpcomingEvents />
         </>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from "./../../components/Heading"
-import AboutUsSlide from "./components/AboutUsSlide"
-import './AboutUs.css'
+import Heading from "../../../components/Heading"
+import AboutUsSlide from "../components/AboutUsSlide"
+import '../AboutUs/AboutUs.css'
 
 export default function AboutUs() {
     return (
