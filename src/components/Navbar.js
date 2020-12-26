@@ -3,7 +3,7 @@ import NavbarData from './NavbarData'
 import "./Navbar.css"
 import Button from './Button';
 
-import img from "./../assets/MeghasPizza.jpg"
+// import img from "./../assets/MeghasPizza.jpg"
 
 export default function Navbar() {
 

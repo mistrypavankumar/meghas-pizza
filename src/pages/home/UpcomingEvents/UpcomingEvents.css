@@ -1,4 +1,13 @@
-.main_heading{
+.main_heading_{
     text-align: center;
     padding: 80px 0px;
+    background-color: rgba(238, 237, 237, 0.452);
+}
+
+.event_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }

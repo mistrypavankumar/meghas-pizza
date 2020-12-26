@@ -5,6 +5,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import './AboutUsSlider.css';
 import WhatPeopleSay from '../data/WhatPeopleSay';
 
+// import "./../Responsive.css"
+
 class AboutUsSlider extends Component {
 	render() {
 		var settings = {
@@ -17,7 +19,7 @@ class AboutUsSlider extends Component {
 			slidesToScroll: 1
 		};
 		return (
-			<div className="s_container">
+			<div className="s_container col-s-6">
 				<Slider {...settings}>
 					{WhatPeopleSay.map((data) => {
 						return (

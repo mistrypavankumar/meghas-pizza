@@ -1,6 +1,7 @@
 .deshesContainer{
     width: 100%;
-    height: 110vh;
+    height: 100%;
+    padding-bottom: 100px;
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.63), rgba(14, 13, 13, 0.096)),
     url('./assets/wooden_bg.jpg');
@@ -18,9 +19,10 @@
 
 .deshesContainer .card_contanier{
     display: flex; 
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 80%;
+    height: 100%;
     margin-right: auto;
     margin-left: auto;
     

@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../../assets/wooden_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+footer p{
+    margin-top: 25px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+footer p .brand{
+    color: rgb(255, 187, 0);
+}

@@ -8,9 +8,9 @@ import Heading from './components/Heading'
 import FeaturedDishes from './pages/home/FeaturesDishes/FeaturedDishes'
 
 
-// import NavTab from "./NavTab" 
 import AboutUs from './pages/home/AboutUs/AboutUs'
 import UpcomingEvents from './pages/home/UpcomingEvents/UpcomingEvents'
+import Footer from './pages/home/Footer/Footer';
 
 export default function Home() {
 
@@ -54,6 +54,9 @@ export default function Home() {
             <AboutUs />
 
             <UpcomingEvents />
+
+            <Footer />
+          
         </>
     )
 }
