@@ -19,7 +19,7 @@ class AboutUsSlider extends Component {
 			slidesToScroll: 1
 		};
 		return (
-			<div className="s_container col-s-6">
+			<div className="s_container">
 				<Slider {...settings}>
 					{WhatPeopleSay.map((data) => {
 						return (

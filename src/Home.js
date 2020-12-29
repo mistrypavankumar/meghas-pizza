@@ -10,6 +10,7 @@ import FeaturedDishes from './pages/home/FeaturesDishes/FeaturedDishes'
 
 import AboutUs from './pages/home/AboutUs/AboutUs'
 import UpcomingEvents from './pages/home/UpcomingEvents/UpcomingEvents'
+import Contact from './pages/home/Contacts/Contact'
 import Footer from './pages/home/Footer/Footer';
 
 export default function Home() {
@@ -54,6 +55,8 @@ export default function Home() {
             <AboutUs />
 
             <UpcomingEvents />
+
+            <Contact />
 
             <Footer />
           

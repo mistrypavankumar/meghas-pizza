@@ -1,0 +1,48 @@
+.contact_container{
+    width: 100%;
+    height: 100%;
+}
+
+.main_container_{
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+}
+.leftSide_{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftSide_ img{
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.rightSide_{
+   width: 100%;
+   height: 350px;
+}
+
+.contact_content {
+    height: 350px;
+    /* background-color: red; */
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .leftSide_{
+        width: 100%;
+    }
+    .main_container_{
+        flex-direction: column;
+    }
+
+    
+}
