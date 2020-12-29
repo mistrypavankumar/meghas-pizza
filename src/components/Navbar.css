@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 :root{
     --textColor: rgb(255, 187, 0);
@@ -11,14 +11,35 @@
 }
 
 
-nav{
-    width: 100hw;
+.main_navbar{
+    width: 100%;
     height: 12vh;
-    position: relative;
+    z-index: 9999;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+}
+.main_navbar.nav_active{
+    background-color: #ffff !important;
+    color: #000;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in;
 }
 
-nav .navbar{
+.main_navbar .navbar{
     width: 50vw;
+}
+.menu-item.nav_active{
+    color: #000;
+}
+
+.menu-item.nav_active:hover{
+    color: var(--secondary);
+    transition: 1s ease;
+}
+.main_navbar .navbar.nav_active{
+   
 }
 
 nav ul{
@@ -31,7 +52,7 @@ nav ul{
 nav ul li{
     line-height: 12vh;
     padding: 0px 15px 0px 15px;
-    color: white;
+    color: #000;
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 500;
@@ -50,7 +71,7 @@ nav .logo{
     text-align: center;
     padding: 50px 20px;
     font-family: monospace; /* Need to change */
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,21 +89,31 @@ nav .logo{
     
 }
 
+.logo.hide{
+    display: none;
+}
 nav .right_menu{
     width: 30vw;
-    /* background-color: red; */
     display: flex;
     justify-content: start;
     position: absolute;
     right: 0;
     top: 0;
-    height: 12vh;
     line-height: 12vh;
     
 }
 
+.right_menu.nav_active{
+    color: #000;
+    transition: 1s ease-in;
+}
+
 nav .right_menu_content{
     display: flex;
+}
+
+.heading1.nav_active{
+    color: #000;
 }
 
 .right_menu_content .heading2{
@@ -90,11 +121,25 @@ nav .right_menu_content{
 
 }
 
+.heading2.nav_active{
+    color: #000;
+}
+
+.heading1.nav_active:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.heading2.nav_active:hover{
+    color: red;
+    cursor: pointer;
+}
+
 .right_menu_content h1{
     font-size: 14px !important;
     font-family: sans-serif;
     font-weight: 500;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -107,6 +152,13 @@ nav .right_menu_content{
     background-color: var(--secondary);
     transition: .5s ease-out ;
 }
+.cbtnStyle.nav_active{
+    color: var(--primary);
+}
+.cbtnStyle.nav_active:hover{
+    color: var(--secondary);
+}
+
 
 .cbtnStyle:hover{
     border-color: var(--secondary) !important;

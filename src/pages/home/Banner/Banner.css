@@ -1,3 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Banner_heading{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20vh;
+    align-items: center;
+    height: 100vh;
+}
+
+.Banner_heading h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    transition: 1s ease-out;
+    
+}
+
 .btn_style{
     background-color: rgb(255, 208, 0);
     color: #fff;
@@ -11,21 +36,4 @@
 
 .btn_style:hover{
     border-color: rgb(255, 208, 0) !important;
-}
-.Banner_heading{
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50vh;
-    margin-top: 30vh;
-    align-items: center;
-}
-
-.Banner_heading h1{
-    font-size: 4rem;
-    font-family: sans-serif;
-    margin-bottom: 30px;
-    transition: 1s ease-out;
-    
 }

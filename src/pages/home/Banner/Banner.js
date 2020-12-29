@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../../components/Navbar'
 import '../../../App.css'
 import '../Banner/Banner.css'
 import Button from '../../../components/Button'
@@ -9,7 +8,6 @@ const Banner = () => {
     return(
         <>
            <div className = "header">
-               <Navbar />
 
                <div className = "Banner_heading">
                     <Heading

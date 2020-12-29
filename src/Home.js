@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 import Banner from './pages/home/Banner/Banner'
 import Cards from './pages/home/Cards/Cards'
 import WelcomePage from './pages/home/WelcomePage/WelcomePage'
@@ -30,8 +31,12 @@ export default function Home() {
         );
     }
     return (
-        <>
+        <>  
+            <Navbar />
+
+          <div>  
             <Banner />
+            
             <WelcomePage />
 
             <div className = "deshesContainer">
@@ -59,7 +64,7 @@ export default function Home() {
             <Contact />
 
             <Footer />
-          
+          </div>
         </>
     )
 }
