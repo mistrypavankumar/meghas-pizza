@@ -182,8 +182,8 @@ nav .right_menu_content {
 		display: none;
 	}
 	.logo {
-		width: 15%;
-		height: 30%;
+		min-width: 150px;
+		min-height: 170px;
 		text-align: center;
 		padding: 50px 20px;
 		font-family: monospace; /* Need to change */
@@ -208,8 +208,8 @@ nav .right_menu_content {
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   .logo{
-      width: 17%;
-      height: 30%;
+     min-width: 150px;
+		min-height: 170px;
       left: 50%;
       right: auto;
       transform: translateX(-50%);
@@ -219,8 +219,8 @@ nav .right_menu_content {
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
  .logo{
-      width: 30%;
-      height: 30%;
+      min-width: 150px;
+		min-height: 170px;
       left: 50%;
       right: auto;
       transform: translateX(-50%);
