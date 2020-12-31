@@ -4,166 +4,225 @@
     box-sizing: border-box;
 } */
 
-:root{
-    --textColor: rgb(255, 187, 0);
-    --primary: #fff;
-    --secondary: red;
+:root {
+	--textColor: rgb(255, 187, 0);
+	--primary: #fff;
+	--secondary: red;
 }
 
-
-.main_navbar{
-    width: 100%;
-    height: 12vh;
-    z-index: 9999;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: transparent;
+.main_navbar {
+	width: 100%;
+	height: 12vh;
+	z-index: 9999;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: transparent;
 }
-.main_navbar.nav_active{
-    background-color: #ffff !important;
-    color: #000;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
-    transition: 0.3s ease-in;
-}
-
-.main_navbar .navbar{
-    width: 50vw;
-}
-.menu-item.nav_active{
-    color: #000;
+.main_navbar.nav_active {
+	background-color: #ffff !important;
+	color: #000;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+	transition: 0.3s ease-in;
 }
 
-.menu-item.nav_active:hover{
-    color: var(--secondary);
-    transition: 1s ease;
+.main_navbar .navbar {
+	width: 50vw;
 }
-.main_navbar .navbar.nav_active{
-   
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu-item.nav_active {
+	color: #000;
 }
 
-nav ul li{
-    line-height: 12vh;
-    padding: 0px 15px 0px 15px;
-    color: #000;
-    font-size: 14px;
-    font-family: sans-serif;
-    font-weight: 500;
-    transition: 1s ease-out;
+.menu-item.nav_active:hover {
+	color: var(--secondary);
+	transition: 0.3s ease;
+}
+.main_navbar .navbar.nav_active {
 }
 
-nav ul li:hover{
-    color: var(--textColor);
-    cursor: pointer;
-  
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-nav .logo{
-    width: 15vw;
-    height: 30vh;
-    text-align: center;
-    padding: 50px 20px;
-    font-family: monospace; /* Need to change */
-    /* position: absolute; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary);
-    background-image: url('../assets/MeghasPizza.gif');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 45%;
-    right: auto;
-    top: 0;
-    border-bottom-right-radius:10px ;
-    border-bottom-left-radius: 10px;
-    
+nav ul li {
+	line-height: 12vh;
+	padding: 0px 15px 0px 15px;
+	color: #000;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: 500;
 }
 
-.logo.hide{
-    display: none;
-}
-nav .right_menu{
-    width: 30vw;
-    display: flex;
-    justify-content: start;
-    position: absolute;
-    right: 0;
-    top: 0;
-    line-height: 12vh;
-    
+nav ul li:hover {
+	color: var(--secondary);
+	cursor: pointer;
+	transition: 0.3s ease-out;
 }
 
-.right_menu.nav_active{
-    color: #000;
-    transition: 1s ease-in;
+nav .logo {
+	width: 15vw;
+	height: 30vh;
+	text-align: center;
+	padding: 50px 20px;
+	font-family: monospace; /* Need to change */
+	/* position: absolute; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary);
+	background-image: url('../assets/MeghasPizza.gif');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 45%;
+	right: auto;
+	top: 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 
-nav .right_menu_content{
-    display: flex;
+.logo.hide {
+	display: none;
+}
+nav .right_menu {
+	width: 35%;
+	display: flex;
+	justify-content: start;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 12vh;
 }
 
-.heading1.nav_active{
-    color: #000;
+.right_menu.nav_active {
+	color: #000;
+	transition: 1s ease-in;
 }
 
-.right_menu_content .heading2{
-    padding-left:20px ;
-
+nav .right_menu_content {
+	display: flex;
 }
 
-.heading2.nav_active{
-    color: #000;
+.right_menu_content .heading1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.heading1.nav_active:hover{
-    color: red;
-    cursor: pointer;
+.heading1.nav_active {
+	color: #000;
 }
 
-.heading2.nav_active:hover{
-    color: red;
-    cursor: pointer;
+.right_menu_content .heading2 {
+	padding-left: 20px;
 }
 
-.right_menu_content h1{
-    font-size: 14px !important;
-    font-family: sans-serif;
-    font-weight: 500;
-    color: #000;
+.right_menu_content .heading2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.right_menu_content h1:hover{
-    color:var(--secondary);
+.heading2.nav_active {
+	color: #000;
 }
 
-.cbtnStyle{
-    margin-left: 20px;
-    position: absolute;
-    right: 50px;
-    top: 16px;
-    color: white;
-    background-color: var(--secondary);
-    transition: .5s ease-out ;
-}
-.cbtnStyle.nav_active{
-    color: var(--primary);
-}
-.cbtnStyle.nav_active:hover{
-    color: var(--secondary);
+.heading1.nav_active:hover {
+	color: red;
+	cursor: pointer;
 }
 
+.heading2.nav_active:hover {
+	color: red;
+	cursor: pointer;
+}
 
-.cbtnStyle:hover{
-    border-color: var(--secondary) !important;
-    color: var(--secondary);
+.right_menu_content h1 {
+	font-size: 14px !important;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #000;
+}
+
+.right_menu_content h1:hover {
+	color: var(--secondary);
+}
+
+.cbtnStyle {
+	margin-left: 20px;
+	position: absolute;
+	right: 50px;
+	top: 16px;
+	color: white;
+	background-color: var(--secondary);
+	transition: .5s ease-out;
+}
+.cbtnStyle.nav_active {
+	color: var(--primary);
+}
+.cbtnStyle.nav_active:hover {
+	color: var(--secondary);
+}
+
+.cbtnStyle:hover {
+	border-color: var(--secondary) !important;
+	color: var(--secondary);
+}
+
+.shoppingIcon {
+	color: var(--secondary);
+}
+
+@media only screen and (max-width: 1186px) {
+	.main_navbar {
+		display: none;
+	}
+	.logo {
+		width: 15%;
+		height: 30%;
+		text-align: center;
+		padding: 50px 20px;
+		font-family: monospace; /* Need to change */
+		/* position: absolute; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: var(--primary);
+		background-image: url('../assets/MeghasPizza.gif');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 45%;
+		right: auto;
+		top: 0;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .logo{
+      width: 17%;
+      height: 30%;
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+ .logo{
+      width: 30%;
+      height: 30%;
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+  }
 }
