@@ -182,6 +182,9 @@ nav .right_menu_content {
 .mobile_nav{
 	display: none;
 }
+.mobileNavBarContainer{
+	display: none;
+}
 
 @media only screen and (max-width: 1186px) {
 	.main_navbar {
@@ -235,7 +238,8 @@ nav .right_menu_content {
 
 	.mobileNavBarContainer{
 		width: 100%;
-		background-color: red;
+		/* background-color: red; */
+		display: block;
 	}
 	.mobileNavBarContainer .menubarIcon{
 		position: absolute;
