@@ -142,13 +142,16 @@ nav .right_menu_content{
     color: #000;
 }
 
+.right_menu_content h1:hover{
+    color:var(--secondary);
+}
 
 .cbtnStyle{
     margin-left: 20px;
     position: absolute;
     right: 50px;
     top: 16px;
-    color: wheat;
+    color: white;
     background-color: var(--secondary);
     transition: .5s ease-out ;
 }
@@ -162,4 +165,5 @@ nav .right_menu_content{
 
 .cbtnStyle:hover{
     border-color: var(--secondary) !important;
+    color: var(--secondary);
 }
