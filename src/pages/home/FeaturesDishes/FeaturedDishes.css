@@ -1,170 +1,341 @@
-:root{
-    --bg_color: rgba(57, 148, 4, 0.897);
-    --activeColor: white;
-    --deactiveColor: rgb(143, 142, 142);
+:root {
+	--bg_color: rgba(57, 148, 4, 0.897);
+	--activeColor: white;
+	--deactiveColor: rgb(143, 142, 142);
 }
 
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-
-#featuredDishes{
-    width: 100%;
-    height: 120vh;
-    background-color: #fff;
+	float: left;
+	padding: 15px;
 }
 
-.featured_heading{
-    text-align: center;
-    width: 80%;
-    margin: 0px auto;
-    padding-top: 80px;
+#featuredDishes {
+	width: 100%;
+	height: 120%;
+	background-color: #fff;
 }
 
-.active{
-    background-color: var(--bg_color);
-    color: #fff;
-    transition: 0.5s ease-in-out;
+.featured_heading {
+	text-align: center;
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 80px;
 }
 
-.nav{
-    max-width: 30%;
-    height: 6vh;
-    margin: 30px auto  40px auto;
-    background-color: rgba(211, 211, 211, 0.5);
-    border-radius: 50px;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-}
-.nav .nav-link{
-    text-decoration: none;
-    flex: 1;
-    line-height: 6vh;
-    border-radius: 50px;
-    outline: none;
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-align: center;
+.active {
+	background-color: var(--bg_color);
+	color: #fff;
+	transition: 0.5s ease-in-out;
 }
 
-a{
-    color: rgb(172, 169, 169);
+.nav {
+	max-width: 30%;
+	height: 6vh;
+	margin: 30px auto 40px auto;
+	background-color: rgba(211, 211, 211, 0.5);
+	border-radius: 50px;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+.nav .nav-link {
+	text-decoration: none;
+	flex: 1;
+	line-height: 6vh;
+	border-radius: 50px;
+	outline: none;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
 }
 
-a:hover{
-    background-color: var(--bg_color);
-    color: #fff;
-    transition: 0.5s ease-in-out;
+a {
+	color: rgb(172, 169, 169);
 }
 
-.tab-content{
-    width: 70%;
-    height: 60vh;
-    margin: 0px auto;
-}
-.nav_tab{
-    width: 80% !important;
-    padding: 0px !important;
-    margin: 40px auto;
-
-}
-.tab_theame{
-    background-color: rgb(202, 202, 202) !important;
-    width: 50% !important;
-    height: 40px;
-    margin: 0px auto;
-    border-radius: 50px;
-    box-shadow: none !important;
-    
+a:hover {
+	background-color: var(--bg_color);
+	color: #fff;
+	transition: 0.5s ease-in-out;
 }
 
-.tab_theame button{
-    color: gray;
-    flex: 1;
-    padding: 0px !important;
-    min-width: 20px !important;
-    min-height: 40px !important ;
-    z-index: 1;
-    color: #fff;
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
-.tab_theame button:hover{
-    background-color:var(--bg_color) ;
-    color: #fff;
-    border-bottom: none !important;
-    border-radius: 50px;
-    transition: 0.3s ease-in;
+.tab-content {
+	width: 70%;
+	height: 60vh;
+	margin: 0px auto;
+}
+.nav_tab {
+	width: 80% !important;
+	padding: 0px !important;
+	margin: 40px auto;
+}
+.tab_theame {
+	background-color: rgb(202, 202, 202) !important;
+	width: 50% !important;
+	height: 40px;
+	margin: 0px auto;
+	border-radius: 50px;
+	box-shadow: none !important;
 }
 
-.PrivateTabIndicator-colorSecondary-4{
-    min-width:20px;
-    min-height: 40px;
-    background-color: var(--bg_color) !important;
-    border-radius: 50px;
-    top: 0;
-    
-    
+.tab_theame button {
+	color: gray;
+	flex: 1;
+	padding: 0px !important;
+	min-width: 20px !important;
+	min-height: 40px !important;
+	z-index: 1;
+	color: #fff;
 }
 
-.tab_theame .button.active{
-    background-color: var(--bg_color) !important;
+.tab_theame button:hover {
+	background-color: var(--bg_color);
+	color: #fff;
+	border-bottom: none !important;
+	border-radius: 50px;
+	transition: 0.3s ease-in;
 }
 
-.display{
-    width: 100%;
-    float: left;
+.PrivateTabIndicator-colorSecondary-4 {
+	min-width: 20px;
+	min-height: 40px;
+	background-color: var(--bg_color) !important;
+	border-radius: 50px;
+	top: 0;
 }
 
-
-.row::after{
-    content: '';
-    clear: both;
-    display: table;
+.tab_theame .button.active {
+	background-color: var(--bg_color) !important;
 }
 
-.leftSide_card{
-    width: 50%;
-    float: left;
+.display {
+	width: 100%;
 }
 
-.rightSide_card{
-    width: 50%;
-    float: left;
+.row::after {
+	content: '';
+	clear: both;
+	display: table;
 }
 
-.explore_btn{
-    width: 10%;
-    margin: 50px auto;
-}
-.featured_btn{
-    background-color: red;
-    color: #fff;
-    letter-spacing: 0.5px;
-    margin: 40px auto;
-
+.leftSide_card {
+	width: 50%;
 }
 
-.featured_btn:hover{
-    border-color: red;
-    color: red;
-    transition: 0.5s ease-in-out;
-    font-weight: 600;
+.rightSide_card {
+	width: 50%;
+}
+
+.explore_btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+}
+
+.featured_btn {
+	background-color: red;
+	color: #fff;
+	letter-spacing: 0.5px;
+	margin: 40px auto;
+}
+
+.featured_btn:hover {
+	border-color: red;
+	color: red;
+	transition: 0.5s ease-in-out;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 1186px) {
+}
+
+@media only screen and (max-width: 1000px) {
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+	}
+	.tab-content {
+		width: 70%;
+		height: 60vh;
+		margin: 0px auto;
+	}
+	.nav_tab {
+		width: 80% !important;
+		padding: 0px !important;
+		margin: 40px auto;
+	}
+	.nav {
+		max-width: 100%;
+		height: 6vh;
+		margin: 30px auto 40px auto;
+		background-color: rgba(211, 211, 211, 0.5);
+		border-radius: 50px;
+		display: flex;
+		position: relative;
+		overflow: hidden;
+	}
+	.nav_tab {
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 40px auto;
+	}
+	.tab_theame {
+		background-color: rgb(202, 202, 202) !important;
+		width: 60% !important;
+		height: 40px;
+		margin: 0px auto;
+		border-radius: 50px;
+		box-shadow: none !important;
+	}
+
+	.tab_theame button {
+		flex: 1;
+		padding: 0px !important;
+		min-width: 20px !important;
+		min-height: 40px !important;
+		z-index: 1;
+		color: #fff;
+	}
+	.tab_theame button:hover {
+		background-color: var(--bg_color);
+		color: #fff;
+		border-bottom: none !important;
+		border-radius: 50px;
+		transition: 0.3s ease-in;
+	}
+
+	.PrivateTabIndicator-colorSecondary-4 {
+		min-width: 20px;
+		min-height: 40px;
+		background-color: var(--bg_color) !important;
+		border-radius: 50px;
+		top: 0;
+	}
+
+	.tab_theame .button.active {
+		background-color: var(--bg_color) !important;
+	}
+
+	.tab-content {
+		width: 100%;
+		height: 60vh;
+		margin: 0px auto;
+	}
+	.leftSide_card {
+		width: 100%;
+	}
+
+	.rightSide_card {
+		width: 100%;
+	}
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.tab-content {
+		width: 100%;
+		height: 60vh;
+		margin: 0px auto;
+	}
+	.nav_tab {
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 40px auto;
+	}
+	.tab_theame button {
+		flex: 1;
+		padding: 0px !important;
+		min-width: 20px !important;
+		min-height: 40px !important;
+		z-index: 1;
+		color: #fff;
+		font-size: 12px;
+	}
+	.tab_theame {
+		background-color: rgb(202, 202, 202) !important;
+		width: 80% !important;
+		height: 40px;
+		margin: 0px auto;
+		border-radius: 50px;
+		box-shadow: none !important;
+	}
+
+	.tab_theame button:hover {
+		background-color: var(--bg_color);
+		color: #fff;
+		border-bottom: none !important;
+		border-radius: 50px;
+		transition: 0.3s ease-in;
+	}
+	.PrivateTabIndicator-colorSecondary-4 {
+		min-width: 80px;
+		min-height: 40px;
+		background-color: var(--bg_color) !important;
+		border-radius: 50px;
+		top: 0;
+	}
+	.leftSide_card {
+		width: 100%;
+	}
+
+	.rightSide_card {
+		width: 100%;
+	}
+	.display {
+		width: 95%;
+	}
 }

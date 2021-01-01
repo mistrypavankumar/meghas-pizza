@@ -1,78 +1,153 @@
-.card_main_cantainer{
-    width: 100%;
-    height: 20vh;
+.card_main_cantainer {
+	width: 100%;
+	height: 20vh;
 }
 
-.card_main_cantainer .card_container{
-    width:100%;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    color: #000;
+.card_main_cantainer .card_container {
+	width: 100%;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	color: #000;
 }
 
-.card_main_cantainer .card_container img{
-    width: 20vh;
-    height: 20vh;
-    border-radius: 50%;
-    padding: 10px;
+.card_main_cantainer .card_container img {
+	width: 20vh;
+	height: 20vh;
+	border-radius: 50%;
+	padding: 10px;
 }
-.card_container .description{
-    width: 550px;
-}
-
-.title_{
-    width: 100%;
-    height: 10vh;
-    position: relative;
-
-}
-.card_container h1{
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 23px;
-    color: rgb(48, 47, 47);
-    border-bottom: 1px dashed rgb(206, 202, 202);
-    padding-bottom: 5px;
-    float: left;
-    width: 100%;
-    position: absolute;
+.card_container .description {
+	width: 550px;
 }
 
-.card_container h3{
-    position: absolute;
-    right: 0;
-    line-height: 6vh;
-    width: 20%;
-    float: right;
-    color: red;
-    font-family: sans-serif;
-    font-size: 16px;
+.title_ {
+	width: 100%;
+	height: 10vh;
+	position: relative;
+}
+.card_container h1 {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 23px;
+	color: rgb(48, 47, 47);
+	border-bottom: 1px dashed rgb(206, 202, 202);
+	padding-bottom: 5px;
+	float: left;
+	width: 100%;
+	position: absolute;
 }
 
-.card_container .h3, h1{
-    clear: both;
+.card_container h3 {
+	position: absolute;
+	right: 0;
+	line-height: 6vh;
+	width: 20%;
+	float: right;
+	color: red;
+	font-family: sans-serif;
+	font-size: 16px;
 }
 
-
-.card_container p{
-    width: 100%;
-    float: left;
-    font-family: sans-serif;
-    font-weight: 500;
-    padding-top: 0px;
-    text-align: initial;
-    font-size: 14px;
-    color: rgb(150, 148, 148);
+.card_container .h3,
+h1 {
+	clear: both;
 }
 
-.card_container .description a{
-    text-decoration: none;
+.card_container p {
+	width: 100%;
+	float: left;
+	font-family: sans-serif;
+	font-weight: 500;
+	padding-top: 0px;
+	text-align: initial;
+	font-size: 14px;
+	color: rgb(150, 148, 148);
 }
 
-.card_container .title_ h1:hover{
-    color: rgb(243, 56, 56);
-    transition: 0.3s ease-out;
+.card_container .description a {
+	text-decoration: none;
+}
+
+.card_container .title_ h1:hover {
+	color: rgb(243, 56, 56);
+	transition: 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1186px) {
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.card_main_cantainer .card_container img {
+		width: 18vh;
+		height: 18vh;
+		border-radius: 50%;
+		padding: 7px;
+	}
+	.card_container .description {
+		width: 550px;
+	}
+
+	.title_ {
+		width: 100%;
+		height: 7vh;
+		position: relative;
+	}
+	.card_container h1 {
+		font-family: sans-serif;
+		font-weight: 600;
+		font-size: 20px;
+		color: rgb(48, 47, 47);
+		border-bottom: 0px dashed rgb(206, 202, 202);
+		padding-bottom: 5px;
+		width: 100%;
+		display: flex;
+		justify-content: start;
+		position: absolute;
+	}
+
+	.card_container h3 {
+		position: absolute;
+		right: 0;
+		margin: 0px auto;
+		line-height: 6vh;
+		width: 20px;
+		margin-left: 10px;
+		float: right;
+		color: red;
+		font-family: sans-serif;
+		font-size: 16px;
+	}
+
+	.card_container .h3,
+	h1 {
+		clear: both;
+	}
+
+	.card_container p {
+		width: 100%;
+		float: left;
+		font-family: sans-serif;
+		font-weight: 500;
+		padding-top: 15px;
+		text-align: initial;
+		font-size: 13px;
+		color: rgb(150, 148, 148);
+	}
+
+	.card_container .description a {
+		text-decoration: none;
+	}
+
+	.card_container .title_ h1:hover {
+		color: rgb(243, 56, 56);
+		transition: 0.3s ease-out;
+	}
 }

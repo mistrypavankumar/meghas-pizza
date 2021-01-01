@@ -1,24 +1,105 @@
-.s_container{
-    width: 50%;
-    height: 60%;
-    margin: 0px auto;
+.s_container {
+	width: 50%;
+	height: 60%;
+	margin: 0px auto;
 }
-.wdt{  
-    width: 100%  !important; 
-    padding: 50px;
-    border: none;
-    outline: none;
-    
-     
-}  
-.wdt > p{
-    color: #ffffff;
-    text-align: center;
-    font-size: 1.4rem;
+.wdt {
+	width: 100% !important;
+	padding: 50px;
+	border: none;
+	outline: none;
+}
+.wdt > p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.4rem;
 }
 
-.wdt > h3{
-    color: rgb(255, 196, 0);
-    text-align: center;
-    padding-top: 20px;
+.wdt > h3 {
+	color: rgb(255, 196, 0);
+	text-align: center;
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 1186px) {
+	.s_container {
+		width: 50%;
+		height: 60%;
+		margin: 0px auto;
+	}
+	.wdt {
+		width: 100% !important;
+		padding: 50px;
+		border: none;
+		outline: none;
+	}
+	.wdt > p {
+		color: #ffffff;
+		text-align: center;
+		font-size: 1.4rem;
+	}
+
+	.wdt > h3 {
+		color: rgb(255, 196, 0);
+		text-align: center;
+		padding-top: 20px;
+	}
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+	.s_container {
+		width: 100%;
+		height: 60%;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+	.wdt {
+		width: 90% !important;
+		padding: 0px 15px;
+		overflow: hidden;
+		border: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		outline: none;
+	}
+	.wdt > p {
+		color: #ffffff;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+
+	.wdt > h3 {
+		color: rgb(255, 196, 0);
+		text-align: center;
+		padding-top: 20px;
+	}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.s_container {
+		width: 100%;
+		height: 60%;
+		margin: 0px auto;
+	}
+	.wdt {
+		width: 100% !important;
+		padding: 10px;
+		border: none;
+		outline: none;
+	}
+	.wdt > p {
+		color: #ffffff;
+		text-align: center;
+		font-size: 1rem;
+		text-overflow: ellipsis;
+	}
+
+	.wdt > h3 {
+		color: rgb(255, 196, 0);
+		text-align: center;
+		padding-top: 20px;
+	}
 }

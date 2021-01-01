@@ -11,7 +11,8 @@ export default function WelcomePage() {
     return (
         <>
             <section id = "welcomePage">
-            <div className = "intro_section">
+            <div className="welcomePageContainer">
+                <div className = "intro_section">
                 <div className = "heading">
 
                     <h1>Welcome to Mega's Pizza </h1>
@@ -56,6 +57,7 @@ export default function WelcomePage() {
             <img src = {img2} alt = "" style = {{width: "230px", height: "350px"}}/>
             </div>
         </div>    
+            </div>
             
             </section>
         </>

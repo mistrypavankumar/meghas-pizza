@@ -100,10 +100,10 @@ export default function Navbar() {
                         <ul>
                             <li><a href="#home">Home</a> </li>
                             <li><a href="#home">Menu</a> </li>
-                            <li><a href="#home">Features</a> </li>
+                            <li><a href="#featuredDishes">Features</a> </li>
                             <li><a href="#home">News</a> </li>
                             <li><a href="#home">Reservation</a> </li>
-                            <li><a href="#home">Contacs</a> </li>
+                            <li><a href="#contact_container">Contacs</a> </li>
                             <hr style = {{
                                 width: "100%",
                                 backgroundColor: 'rgb(158, 5, 5)'

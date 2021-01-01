@@ -25,6 +25,7 @@ export default function Contact() {
                         mainHeading = "Contact Info"
                         mainHeadingSize = "2.7rem"
                         mainHeadingColor = "black"
+                        textAlign = "start" 
                      />
                     <p 
                     style = {

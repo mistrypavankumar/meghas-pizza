@@ -15,6 +15,7 @@ const Banner = () => {
                         subTitleColor = "yellow"
                         subTitleSize = "2rem"
                         mainHeading = "The Best Pizza in Town"
+                        textAlign = "center"
                         
                      />
 

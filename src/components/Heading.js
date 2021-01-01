@@ -5,6 +5,7 @@ export default function Heading(props) {
     const cstyle = {
         color: `${props.subTitleColor}`,
         fontSize: `${props.subTitleSize}`,
+        textAlign: `${props.textAlign}`
 
     }
 
