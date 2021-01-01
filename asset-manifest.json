@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/meghas-pizza/static/css/main.0dd9f2c1.chunk.css",
-    "main.js": "/meghas-pizza/static/js/main.3c6c06fc.chunk.js",
-    "main.js.map": "/meghas-pizza/static/js/main.3c6c06fc.chunk.js.map",
+    "main.css": "/meghas-pizza/static/css/main.552e2639.chunk.css",
+    "main.js": "/meghas-pizza/static/js/main.8e8a8dff.chunk.js",
+    "main.js.map": "/meghas-pizza/static/js/main.8e8a8dff.chunk.js.map",
     "runtime-main.js": "/meghas-pizza/static/js/runtime-main.c37ae30a.js",
     "runtime-main.js.map": "/meghas-pizza/static/js/runtime-main.c37ae30a.js.map",
     "static/css/2.4005d955.chunk.css": "/meghas-pizza/static/css/2.4005d955.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.9175f788.chunk.js.map": "/meghas-pizza/static/js/2.9175f788.chunk.js.map",
     "index.html": "/meghas-pizza/index.html",
     "static/css/2.4005d955.chunk.css.map": "/meghas-pizza/static/css/2.4005d955.chunk.css.map",
-    "static/css/main.0dd9f2c1.chunk.css.map": "/meghas-pizza/static/css/main.0dd9f2c1.chunk.css.map",
+    "static/css/main.552e2639.chunk.css.map": "/meghas-pizza/static/css/main.552e2639.chunk.css.map",
     "static/js/2.9175f788.chunk.js.LICENSE.txt": "/meghas-pizza/static/js/2.9175f788.chunk.js.LICENSE.txt",
     "static/media/1.f6cdf649.jpg": "/meghas-pizza/static/media/1.f6cdf649.jpg",
     "static/media/3.ce9e4734.jpg": "/meghas-pizza/static/media/3.ce9e4734.jpg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.c37ae30a.js",
     "static/css/2.4005d955.chunk.css",
     "static/js/2.9175f788.chunk.js",
-    "static/css/main.0dd9f2c1.chunk.css",
-    "static/js/main.3c6c06fc.chunk.js"
+    "static/css/main.552e2639.chunk.css",
+    "static/js/main.8e8a8dff.chunk.js"
   ]
 }
